@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Main.java" afterDir="false" />
+    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Adicionar tratamento de exceções ao catálogo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/dados/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/dados/Catalogo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2poMFECvH8X9kYxtp4B96FYbiNV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CatalogoTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -51,6 +48,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.ufrn.imd.excecoes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CatalogoTest" type="JUnit" factoryName="JUnit">
+      <module name="LojaVirtual" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatalogoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,10 +82,68 @@
       <option name="presentableId" value="Default" />
       <updated>1733427871519</updated>
       <workItem from="1733427872555" duration="2393000" />
+      <workItem from="1733493599841" duration="4340000" />
     </task>
+    <task id="LOCAL-00001" summary="Configurar Projeto">
+      <option name="closed" value="true" />
+      <created>1733493730422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733493730422</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adicionar Catalogo">
+      <option name="closed" value="true" />
+      <created>1733493756252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733493756252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adicionar Produto">
+      <option name="closed" value="true" />
+      <created>1733493866429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733493866429</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adicionar Pedido">
+      <option name="closed" value="true" />
+      <created>1733493874994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733493874994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adicionar Catalogo">
+      <option name="closed" value="true" />
+      <created>1733493881979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733493881979</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adicionar tratamento de exceções ao catálogo">
+      <option name="closed" value="true" />
+      <created>1733497198553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733497198553</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configurar Projeto" />
+    <MESSAGE value="Adicionar Produto" />
+    <MESSAGE value="Adicionar Pedido" />
+    <MESSAGE value="Adicionar Catalogo" />
+    <MESSAGE value="Adicionar tratamento de exceções ao catálogo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionar tratamento de exceções ao catálogo" />
   </component>
 </project>
