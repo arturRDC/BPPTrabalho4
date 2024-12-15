@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Refatorar estrutura de pacotes do projeto">
+    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Renomear método calcularDesconto para um nome mais adequado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatalogoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatalogoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CatalogoTest.deveAdicionarProdutoTest.executor": "Debug",
-    "JUnit.CatalogoTest.deveCalcularTotalComDescontoTest.executor": "Debug",
+    "JUnit.CatalogoTest.deveCalcularTotalComDescontoTest.executor": "Run",
     "JUnit.CatalogoTest.deveCalcularTotalSemDescontoTest.executor": "Debug",
     "JUnit.CatalogoTest.executor": "Run",
     "JUnit.CatalogoTest.naoDeveAdicionarProdutoComIdDuplicadoTest.executor": "Debug",
@@ -56,7 +57,7 @@
       <recent name="br.ufrn.imd.excecoes" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CatalogoTest.deveCalcularTotalComDescontoTest">
+  <component name="RunManager" selected="JUnit.CatalogoTest">
     <configuration name="CatalogoTest" type="JUnit" factoryName="JUnit">
       <module name="LojaVirtual" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,7 +137,7 @@
       <workItem from="1733493599841" duration="4368000" />
       <workItem from="1733790961441" duration="1556000" />
       <workItem from="1734178580707" duration="5911000" />
-      <workItem from="1734283608755" duration="4843000" />
+      <workItem from="1734283608755" duration="6619000" />
     </task>
     <task id="LOCAL-00001" summary="Configurar Projeto">
       <option name="closed" value="true" />
@@ -234,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734289518161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Renomear método calcularDesconto para um nome mais adequado">
+      <option name="closed" value="true" />
+      <created>1734290411976</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734290411976</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +260,8 @@
     <MESSAGE value="Adicionar testes unitários" />
     <MESSAGE value="Adicionar teste de integração" />
     <MESSAGE value="Refatorar estrutura de pacotes do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatorar estrutura de pacotes do projeto" />
+    <MESSAGE value="Renomear método calcularDesconto para um nome mais adequado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renomear método calcularDesconto para um nome mais adequado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

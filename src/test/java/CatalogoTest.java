@@ -22,11 +22,7 @@ public class CatalogoTest {
     @Test
     public void deveAdicionarProdutoTest() {
         Produto produto = new Produto(1, "Produto 1", 10.00f);
-        try {
-            catalogo.adicionarProduto(produto);
-        } catch (Exception e) {
-            fail();
-        }
+        assertDoesNotThrow(()-> catalogo.adicionarProduto(produto));
 
         assertEquals(1, catalogo.listarProdutos().size());
         assertEquals(produto, catalogo.listarProdutos().get(0));
@@ -35,11 +31,7 @@ public class CatalogoTest {
     @Test
     public void naoDeveAdicionarProdutoComIdDuplicadoTest() {
         Produto produto = new Produto(1, "Produto 1", 10.00f);
-        try {
-            catalogo.adicionarProduto(produto);
-        } catch (Exception e) {
-            fail();
-        }
+        assertDoesNotThrow(()-> catalogo.adicionarProduto(produto));
         assertEquals(1, catalogo.listarProdutos().size());
         assertEquals(produto, catalogo.listarProdutos().get(0));
 
@@ -55,11 +47,7 @@ public class CatalogoTest {
     @Test
     public void deveBuscarProdutoPorIdTest() {
         Produto produto = new Produto(1, "Produto 1", 10.00f);
-        try {
-            catalogo.adicionarProduto(produto);
-        } catch (Exception e) {
-            fail();
-        }
+        assertDoesNotThrow(()-> catalogo.adicionarProduto(produto));
 
         try {
             assertEquals(produto, catalogo.buscarProdutoPorId(1));
