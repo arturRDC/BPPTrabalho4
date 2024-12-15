@@ -1,12 +1,15 @@
 package br.ufrn.imd.modelo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Pedido {
     private List<Produto> produtos;
     private String cliente;
 
-    public Pedido() {
+    public Pedido(String cliente) {
+        produtos = new ArrayList<>();
+        this.cliente = cliente;
     }
 
     public void adicionarProduto(Produto produto) {

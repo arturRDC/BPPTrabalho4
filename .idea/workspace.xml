@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Adicionar tratamento de exceções ao catálogo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/dados/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/dados/Catalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CatalogoTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CatalogoTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.ufrn.imd.excecoes" />
@@ -82,7 +82,10 @@
       <option name="presentableId" value="Default" />
       <updated>1733427871519</updated>
       <workItem from="1733427872555" duration="2393000" />
-      <workItem from="1733493599841" duration="4340000" />
+      <workItem from="1733493599841" duration="4368000" />
+      <workItem from="1733790961441" duration="1556000" />
+      <workItem from="1734178580707" duration="5911000" />
+      <workItem from="1734283608755" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="Configurar Projeto">
       <option name="closed" value="true" />
@@ -132,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733497198553</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adicionar tratamento de exceções ao catálogo">
+      <option name="closed" value="true" />
+      <created>1733497960564</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733497960564</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
