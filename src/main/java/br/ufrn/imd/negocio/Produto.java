@@ -1,4 +1,4 @@
-package br.ufrn.imd.modelo;
+package br.ufrn.imd.negocio;
 
 public class Produto {
     public int id;

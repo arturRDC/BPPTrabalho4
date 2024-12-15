@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Adicionar testes unitários">
+    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Adicionar teste de integração">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/dados/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Catalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CatalogoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatalogoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,26 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CatalogoTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CatalogoTest.deveAdicionarProdutoTest.executor": "Debug",
+    "JUnit.CatalogoTest.deveCalcularTotalComDescontoTest.executor": "Debug",
+    "JUnit.CatalogoTest.deveCalcularTotalSemDescontoTest.executor": "Debug",
+    "JUnit.CatalogoTest.executor": "Run",
+    "JUnit.CatalogoTest.naoDeveAdicionarProdutoComIdDuplicadoTest.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.ufrn.imd.excecoes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CatalogoTest.deveCalcularTotalComDescontoTest">
     <configuration name="CatalogoTest" type="JUnit" factoryName="JUnit">
       <module name="LojaVirtual" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,6 +70,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CatalogoTest.deveAdicionarProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LojaVirtual" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatalogoTest" />
+      <option name="METHOD_NAME" value="deveAdicionarProdutoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoTest.deveCalcularTotalComDescontoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LojaVirtual" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatalogoTest" />
+      <option name="METHOD_NAME" value="deveCalcularTotalComDescontoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoTest.deveCalcularTotalSemDescontoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LojaVirtual" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatalogoTest" />
+      <option name="METHOD_NAME" value="deveCalcularTotalSemDescontoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoTest.naoDeveAdicionarProdutoComIdDuplicadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LojaVirtual" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatalogoTest" />
+      <option name="METHOD_NAME" value="naoDeveAdicionarProdutoComIdDuplicadoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CatalogoTest.deveCalcularTotalComDescontoTest" />
+        <item itemvalue="JUnit.CatalogoTest.deveCalcularTotalSemDescontoTest" />
+        <item itemvalue="JUnit.CatalogoTest.naoDeveAdicionarProdutoComIdDuplicadoTest" />
+        <item itemvalue="JUnit.CatalogoTest.deveAdicionarProdutoTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -85,7 +139,7 @@
       <workItem from="1733493599841" duration="4368000" />
       <workItem from="1733790961441" duration="1556000" />
       <workItem from="1734178580707" duration="5911000" />
-      <workItem from="1734283608755" duration="2307000" />
+      <workItem from="1734283608755" duration="4196000" />
     </task>
     <task id="LOCAL-00001" summary="Configurar Projeto">
       <option name="closed" value="true" />
@@ -167,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734286090075</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adicionar teste de integração">
+      <option name="closed" value="true" />
+      <created>1734286440250</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734286440250</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +244,31 @@
     <MESSAGE value="Corrigir bug construtor Pedido vazio" />
     <MESSAGE value="Refatorar cálculo do total do Pedido para melhorar legibilidade e manutenção." />
     <MESSAGE value="Adicionar testes unitários" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionar testes unitários" />
+    <MESSAGE value="Adicionar teste de integração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionar teste de integração" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java</url>
+          <line>28</line>
+          <properties class="br.ufrn.imd.modelo.Pedido" method="calcularDesconto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java</url>
+          <line>17</line>
+          <properties class="br.ufrn.imd.modelo.Pedido" method="adicionarProduto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

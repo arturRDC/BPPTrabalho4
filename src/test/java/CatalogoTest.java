@@ -1,8 +1,8 @@
-import br.ufrn.imd.dados.Catalogo;
+import br.ufrn.imd.negocio.Catalogo;
 import br.ufrn.imd.excecoes.ProdutoDuplicadoException;
 import br.ufrn.imd.excecoes.ProdutoNaoEncontradoException;
-import br.ufrn.imd.modelo.Pedido;
-import br.ufrn.imd.modelo.Produto;
+import br.ufrn.imd.negocio.Pedido;
+import br.ufrn.imd.negocio.Produto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
