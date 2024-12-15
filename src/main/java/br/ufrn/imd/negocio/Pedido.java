@@ -21,12 +21,12 @@ public class Pedido {
 
     public float calcularTotal() {
         float valorTotal = somarValores();
-        valorTotal = calcularDesconto(valorTotal);
+        valorTotal = aplicarDesconto(valorTotal);
 
         return valorTotal;
     }
 
-    private static float calcularDesconto(float valorTotal) {
+    private static float aplicarDesconto(float valorTotal) {
         // Desconto de 10% se o total for maior que 100
         if (valorTotal > 100.00f) {
             logger.info("Desconto aplicado com sucesso");
