@@ -17,17 +17,27 @@ public class Pedido {
     }
 
     public float calcularTotal() {
-        float valorTotal = 0.0f;
-        for (Produto produto : produtos) {
-            valorTotal += produto.preco;
-        }
+        float valorTotal = somarValores();
+        valorTotal = calcularDesconto(valorTotal);
 
+        return valorTotal;
+    }
+
+    private static float calcularDesconto(float valorTotal) {
         // Desconto de 10% se o total for maior que 100
         if (valorTotal > 100.00f) {
             return (float) (valorTotal * 0.9);
         } else {
             return valorTotal;
         }
+    }
+
+    private float somarValores() {
+        float valorTotal = 0.0f;
+        for (Produto produto : produtos) {
+            valorTotal += produto.preco;
+        }
+        return valorTotal;
     }
 
 }

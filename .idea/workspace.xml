@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Adicionar tratamento de exceções ao catálogo">
+    <list default="true" id="3dc3458b-ee11-45cb-8c78-251e56065e35" name="Changes" comment="Corrigir bug construtor Pedido vazio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/modelo/Pedido.java" afterDir="false" />
     </list>
@@ -85,7 +85,7 @@
       <workItem from="1733493599841" duration="4368000" />
       <workItem from="1733790961441" duration="1556000" />
       <workItem from="1734178580707" duration="5911000" />
-      <workItem from="1734283608755" duration="995000" />
+      <workItem from="1734283608755" duration="1729000" />
     </task>
     <task id="LOCAL-00001" summary="Configurar Projeto">
       <option name="closed" value="true" />
@@ -143,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733497960564</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Corrigir bug construtor Pedido vazio">
+      <option name="closed" value="true" />
+      <created>1734285363982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734285363982</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="Adicionar Pedido" />
     <MESSAGE value="Adicionar Catalogo" />
     <MESSAGE value="Adicionar tratamento de exceções ao catálogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionar tratamento de exceções ao catálogo" />
+    <MESSAGE value="Corrigir bug construtor Pedido vazio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrigir bug construtor Pedido vazio" />
   </component>
 </project>
