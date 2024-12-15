@@ -99,4 +99,22 @@ public class CatalogoTest {
         // Total: 110 - 10% desconto = 99
         assertEquals(99.0f, pedido.calcularTotal());
     }
+
+    @Test
+    void deveCalcularTotalComDescontoSemProdutosTest() {
+        assertDoesNotThrow(() -> {
+            Catalogo catalogo = new Catalogo();
+            Produto produto1 = new Produto(1, "Produto 1", 30.0f);
+            Produto produto2 = new Produto(2, "Produto 2", 80.0f);
+
+            catalogo.adicionarProduto(produto1);
+            catalogo.adicionarProduto(produto2);
+
+            Pedido pedido = new Pedido("Cliente 1");
+            pedido.adicionarProduto(catalogo.buscarProdutoPorId(1));
+            pedido.adicionarProduto(catalogo.buscarProdutoPorId(2));
+
+            assertEquals(99.0f, pedido.calcularTotal());
+        });
+    }
 }
